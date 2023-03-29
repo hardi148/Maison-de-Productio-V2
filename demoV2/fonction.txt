@@ -1,0 +1,7 @@
+public Timestamp transform(String dateString) throws Exception
+    {
+        SimpleDateFormat format = new SimpleDateFormat("dd MMMM yyyy", new Locale("fr"));
+        Date parsedDate = format.parse(dateString);
+        Timestamp timestamp = new Timestamp(parsedDate.getTime());
+        return timestamp;
+    }

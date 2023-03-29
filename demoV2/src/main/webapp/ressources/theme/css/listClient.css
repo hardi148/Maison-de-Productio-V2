@@ -1,0 +1,50 @@
+body{
+    margin-left: 50px;
+}
+
+.client{
+    margin-left: 50px;
+}
+
+.client label{
+    font-family: arial;
+    font-size: 20px;
+}
+
+.client select{
+    width: 110px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 7px;  
+    border-radius: 5px;
+}
+
+.valider{
+    /*background-color: orange;*/
+    height: auto;
+    width: 1000px;
+}
+.valider td{
+    width: 150px;
+    height: 25px;
+}
+
+.attente{
+    /*background-color: orange;*/
+    height: auto;
+    width: 500px;
+}
+.attente td{
+    width: 150px;
+    height: 25px;
+}
+
+.horaire{
+    /*background-color: plum;*/
+    height: auto;
+    width: 700px;
+}
+.horaire td{
+    width: 100px;
+    height: 25px;
+}
